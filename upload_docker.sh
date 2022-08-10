@@ -5,12 +5,12 @@
 
 
 # Create dockerpath
-dockerpath=shaovafest/ml_app
+dockerpath=shaovafest/ml-app
 
 # Step 2:  
 # Authenticate & tag
 docker login
-docker tag ml_app $dockerpath
+docker tag ml-app $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
